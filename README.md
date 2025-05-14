@@ -22,4 +22,9 @@ This repository contains an analysis of cocoa futures and related market data. T
 - `ALL_Clear_Output.sh`: Shell script to clear all notebook outputs
 
 ## Author
-- jak-weston 
+- jak-weston
+- spdasucsd
+- seemarida
+- alesoumah
+
+
