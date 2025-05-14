@@ -1,30 +1,72 @@
-# Cocoa Futures Analysis
+# 🌱 Cocoa Futures Analysis
 
-This repository contains an analysis of cocoa futures and related market data. The project explores various aspects of the cocoa market, including price trends, market dynamics, and factors affecting cocoa futures.
+## Project Overview
+An advanced data analysis project that investigates the relationship between agroclimatological factors (particularly El Niño-Southern Oscillation) and cocoa futures market volatility. The project combines NASA POWER DAV Tool data with financial market data to predict cocoa price movements.
 
-## Project Structure
-- `Raw_DB/`: Raw database files
-- `NASA_DB/`: NASA-related data files
-- `Merged_DB/`: Merged database files
-- `Data_Analysis/`: Data analysis scripts and notebooks
-- `Contract_DB/`: Contract database files
-- `Images/`: Project images and visualizations
+## 🎯 Key Features
+- **Climate-Market Correlation Analysis**: Examines how weather patterns affect cocoa futures prices
+- **NASA POWER DAV Integration**: Utilizes satellite-derived agroclimatological data
+- **Price Spread Analysis**: Studies COCO Wisdom Tree and CCc1 spread dynamics
+- **Interactive Visualizations**: Plotly-based charts for market trend analysis
+- **Multi-Source Data Integration**: Combines climate, market, and agricultural data
 
-## Notebooks
-- `Cocoa_Spreads.ipynb`: Analysis of cocoa price spreads
-- `DataCheckpoint_Group142-FA24.ipynb`: Data checkpoint analysis
-- `EDACheckpoint_Group142-FA24.ipynb`: Exploratory Data Analysis
-- `FinalProject_Group142-FA24.ipynb`: Final project analysis
-- `NASA_Data.ipynb`: Analysis of NASA-related data
+## 📊 Data Sources
+- **NASA POWER DAV Tool**: Agroclimatological measurements
+  - Temperature metrics (T2M, T2M_MAX, T2M_MIN)
+  - Soil conditions (TS, GWETPROF)
+  - Precipitation data (PRECTOTCORR)
+- **Market Data**
+  - Daily cocoa futures prices
+  - Trading volumes
+  - Price spreads
+- **Agricultural Data**
+  - Cocoa production forecasts
+  - Supply chain metrics
 
-## Tools
-- `NB_Clear_Output.py`: Python script to clear notebook outputs
-- `ALL_Clear_Output.sh`: Shell script to clear all notebook outputs
+## 📈 Analysis Components
+- `Cocoa_Spreads.ipynb`: Analysis of price spreads between contracts
+- `NASA_Data.ipynb`: Processing and analysis of climate data
+- `DataCheckpoint_Group142-FA24.ipynb`: Data processing and integration
+- `EDACheckpoint_Group142-FA24.ipynb`: Exploratory data analysis
+- `FinalProject_Group142-FA24.ipynb`: Comprehensive analysis and findings
 
-## Author
-- jak-weston
-- spdasucsd
-- seemarida
-- alesoumah
+## 🔍 Key Findings
+- Correlation between El Niño patterns and market volatility
+- Impact of temperature and rainfall on cocoa production
+- Price spread behavior during climate events
+- Supply chain disruptions related to weather patterns
 
+## 📁 Repository Structure
+- `Raw_DB/`: Raw market and climate data
+- `NASA_DB/`: Processed NASA POWER DAV data
+- `Merged_DB/`: Integrated datasets
+- `Data_Analysis/`: Analysis scripts and notebooks
+- `Contract_DB/`: Futures contract data
+- `Images/`: Visualizations and charts
 
+## 🛠️ Technologies Used
+- Python
+- Pandas & NumPy
+- Plotly & Seaborn
+- Refinitiv API
+- NASA POWER DAV Tool
+
+## 🔗 Dependencies
+Required Python packages:
+```bash
+pandas
+numpy
+plotly
+seaborn
+matplotlib
+refinitiv-data
+```
+
+## 👥 Contributors
+- Jack Weston
+- Spandan Das
+- Seema Rida
+- Louis Alejandro Soumah
+
+## 📄 License
+This project is available under the MIT License. 
